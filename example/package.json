@@ -8,7 +8,8 @@
   "main": ".",
   "version": "0.1.0",
   "dependencies": {
-    "express": ">= 2.0.0"
+    "express": ">= 2.0.0",
+    "impact-weltmeister": ">= 0.1.0"
   },
   "engines": {
     "node": ">= 0.4",

@@ -1,6 +1,6 @@
 {
   "name": "impact-weltmeister",
-  "description": "minimal express backend for ImpactJS's editor, \"Weltmeister\"",
+  "description": "express backend for ImpactJS's editor, \"Weltmeister\"",
   "author": {
     "name": "Conner Petzold",
     "email": "cpetzold@gmail.com"

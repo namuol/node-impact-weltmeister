@@ -1,10 +1,6 @@
 // You'll need to `npm install express`, of course.
 var express = require('express'),
-
-    // For a real-world app, you'd need to change the following line
-    // to this:
-    //impact = require('impact-weltmeister'),
-    impact = require('../lib/weltmeister'),
+    impact = require('impact-weltmeister'),
     port = 8080,
     root = __dirname + '/impact',
     app = express();
