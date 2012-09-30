@@ -1,0 +1,37 @@
+{
+  "name": "impact-weltmeister",
+  "description": "minimal express backend for ImpactJS's editor, \"Weltmeister\"",
+  "author": {
+    "name": "Conner Petzold",
+    "email": "cpetzold@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Christopher McCulloh",
+      "email": "cmcculloh@gmail.com"
+    },
+    {
+      "name": "Louis Acresti",
+      "email": "louis.acresti@gmail.com"
+    }
+  ],
+  "version": "0.1.0",
+  "main": "./lib",
+  "keywords": [
+    "impactjs",
+    "impact",
+    "game",
+    "weltmeister"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namuol/node-impact-weltmeister"
+  },
+  "dependencies": {
+    "glob": ">= 2.0.9"
+  },
+  "engines": {
+    "node": ">= 0.4",
+    "npm": ">= 1"
+  }
+}

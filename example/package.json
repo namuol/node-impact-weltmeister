@@ -1,0 +1,17 @@
+{
+  "name": "impact-weltmeister-example",
+  "description": "example use of impact-weltmeister",
+  "author": {
+    "name": "Louis Acresti",
+    "email": "louis.acresti@gmail.com"
+  },
+  "main": ".",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": ">= 2.0.0"
+  },
+  "engines": {
+    "node": ">= 0.4",
+    "npm": ">= 1"
+  }
+}
