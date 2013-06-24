@@ -2,7 +2,7 @@
 var express = require('express'),
     impact = require('impact-weltmeister'),
     port = 8080,
-    root = __dirname + '/impact',
+    root = __dirname + '/impact/', # NOTE: Trailing slash MUST be present!
     app = express();
 
 app.configure(function(){
@@ -13,6 +13,7 @@ app.configure(function(){
 
 impact.listen(app, {root: root});
 
+app.use(express.directory(root));
 app.use(express.static(root));
 
 app.listen(port);
