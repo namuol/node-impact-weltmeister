@@ -4,7 +4,7 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     serveIndex = require('serve-index'),
     port = 8080,
-    root = __dirname,
+    root = __dirname + '/impact/',
     app = express();
 
 app.use(methodOverride());
