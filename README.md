@@ -4,6 +4,8 @@ node-impact-weltmeister
 Aiming to provide a complete drop-in replacement for the PHP backend used by
 ImactJS's Weltmeister editor, for use with express.
 
+This branch fixes a couple of outdated features that the original implemented.  Mainly due to express being a couple of versions higher than it was back then.   
+
 Tutorial
 ----------
 Make sure you have NodeJS installed before continuing.  You can check by entering
